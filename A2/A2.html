@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="flexbox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Pacifico&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -15,10 +15,32 @@
 <h1>Flexbox Display</h1>
 </div>
 <form id="Flexform" class="Formulario">
-    <label for="flexDirection">flex direction:</label>
+    <label for="flexDirection">flex-direction:</label>
     <select id="flexDirection">
         <option value="row">row</option>
         <option value="column">column</option>
+    </select>
+    <label for="justifyContent">justify-content:</label>
+    <select id="justifyContent">
+        <option value="flex-start">flex-start</option>
+        <option value="flex-end">flex-end</option>
+        <option value="space-between">space-between</option>
+        <option value="space-around">space-around</option>
+        <option value="space-evenly">space-evenly</option>
+    </select>
+    <label for="alignItems">align-items:</label>
+    <select id="alignItems">
+        <option value="stretch">stretch</option>
+        <option value="flex-start">flex-start</option>
+        <option value="flex-end">flex-end</option>
+        <option value="center">center</option>
+        <option value="baseline">baseline</option>
+    </select>
+    <label for="flexWrap">flex-wrap:</label>
+    <select id="flexWrap">
+        <option value="nowrap">nowrap</option>
+        <option value="wrap">wrap</option>
+        <option value="wrap-reverse">wrap-reverse</option>
     </select>
 
 </form>
