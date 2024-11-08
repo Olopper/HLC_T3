@@ -5,3 +5,10 @@
     font-family: "Funnel Display", sans-serif;
     font-optical-sizing: auto;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
