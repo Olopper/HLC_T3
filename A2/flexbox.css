@@ -12,3 +12,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.controls1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkcyan;  
+}
