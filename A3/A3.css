@@ -1,3 +1,13 @@
+header {
+    background-color: blue;
+    color: white; 
+    padding: 80px;
+    text-align: center;
+    background-position: center;
+    justify-content: space-around;
+    background-attachment: fixed;
+}
+
 .header {
     position: fixed;
     top: 0;
