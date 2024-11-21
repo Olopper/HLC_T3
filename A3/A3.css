@@ -1,0 +1,29 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: black;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+.navbar a:hover 
+{
+    background-color: rgb(233, 219, 215);
+    width: 20%;
+    height: 50%;
+    border-radius: 8px;
+}
