@@ -37,3 +37,14 @@ header {
     height: 50%;
     border-radius: 8px;
 }
+
+.card {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.card-body {
+    
+}
