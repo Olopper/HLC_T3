@@ -40,10 +40,26 @@ header {
 
 .card {
     text-align: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     display: flex;
 }
 
 .card-body {
     
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.mb-3 {
+    justify-content: space-around;
 }
