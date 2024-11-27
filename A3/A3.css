@@ -63,3 +63,11 @@ footer {
 .mb-3 {
     justify-content: space-around;
 }
+
+.text {
+    text-align: center;
+}
+
+.form-control {
+    background-color: red;
+}
